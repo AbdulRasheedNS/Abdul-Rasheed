@@ -248,7 +248,8 @@ body a{
 }
 .positioning{
     position: absolute;
-    left: 7em;
+    /* left: ; */
+    right: 13rem;
     bottom: .1rem;
     
     
