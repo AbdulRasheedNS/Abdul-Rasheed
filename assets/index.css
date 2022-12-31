@@ -16,10 +16,7 @@
     width: calc(50% - 10px);
     /* half container size less margins */
     margin: 5px;
-    border: 0 solid rgb(17, 13, 13);
-}
-#home-section{
-    background-color: #d2d2d2;
+    border: 0 solid #6196e1;
 }
 .social_media{
     size: 20rem;
@@ -30,7 +27,7 @@
 
 }
 
-#header .profile .social-links a {
+.social-links a {
   font-size: 18px;
   display: inline-block;
   background: #212431;
@@ -45,9 +42,10 @@
   transition: 0.3s;
 }
 
+
 .social-links a:hover {
-  background: #0d77a5;
-  color: #fff;
+  background: #0252ba;
+  color: #ffffff;
   text-decoration: none;
 }
 .main-social-links{
@@ -59,14 +57,14 @@
   padding-bottom: .5rem;
   background-color: #ffffff;
   border-radius: 5rem;
-  margin-right: 15rem;
-  margin-left: 7rem;
+  margin-right: 5rem;
+  margin-left: 0rem;
 }
 
 .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgb(16, 16, 39);
+  background: #091f3d;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -84,7 +82,6 @@
 }
 .contact{
   padding: 5rem;
-  background-color: #d9dde4;
 }
 .contact-title{
   padding-left:5rem;
@@ -103,10 +100,10 @@
     justify-content: center;
     width: 54px;
     height: 54px;
-    background: #149ddd;
+    background: #3381ee;
     border-radius: 50%;
     transition: 0.5s;
-    border: 1px solid #149ddd;
+    border: 1px solid #6196e1;
 }
 
 .icon i {
@@ -125,11 +122,19 @@
 }
 
 .icon-box:hover .icon i {
-    color: #149ddd;
+    color: #0769f1;
 }
 
 .icon-box:hover .icon {
-    background: #fff;
+    background: #ffffff;
+}
+
+.address:hover .icon i, .email:hover .icon i, .phone:hover .icon i {
+  color: #3381ee;
+}
+
+.address:hover .icon , .email:hover .icon, .phone:hover .icon {
+  background: #fff;
 }
 
 .title {
@@ -178,22 +183,29 @@
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
-
+body{
+  overflow-x: hidden;
+}
+body a{
+  text-decoration: none;
+}
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #bad6fa;
   height: 10px;
+  border-radius: .2rem;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #6196e1;
+  border-radius: .2rem;
 }
 .section-bg {
     background: #f5f8fd;
@@ -209,14 +221,14 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #173b6c;
+    color: #27579a;
   }
   
   .section-title h2::after {
     content: "";
     position: absolute;
     display: block;
-    width: 5000px;
+    width: 100%;
     height: 3px;
     background: #367466;
     bottom: 0;
@@ -227,3 +239,37 @@
     margin-bottom: 0;
   }
   
+
+  .col-lg-3{
+    padding-bottom: 1.3rem;
+    width: 100%;
+    min-width: 80%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.col-lg-3 img {
+    max-width: 100%;
+}
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+.positioning{
+    position: absolute;
+    right: 17%;
+    bottom: .2rem;
+}
+.objective{
+  margin-bottom: 1rem;
+}
+/* section background color  */
+#home-section{
+  background-color: #d9dde4;
+}
+#skills-section{
+  background-color: rgb(223, 223, 223);
+}
+#contact-section{
+  background-color: #b4c1c8;
+}
