@@ -57,8 +57,6 @@
   padding-bottom: .5rem;
   background-color: #ffffff;
   border-radius: 5rem;
-  margin-right: 5rem;
-  margin-left: 0rem;
 }
 
 .social-links a {
@@ -248,17 +246,12 @@ body a{
     position: relative;
     text-align: center;
 }
-.col-lg-3 img {
-    max-width: 100%;
-}
-.img-container {
-    display: inline-block;
-    position: relative;
-}
 .positioning{
     position: absolute;
-    right: 17%;
-    bottom: .2rem;
+    left: 10rem;
+    bottom: .1rem;
+    
+    
 }
 .objective{
   margin-bottom: 1rem;
